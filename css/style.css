@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background: url(/aula_bootstrap/img/bg.jpg);
+}
+
+.margin-obj{
+    margin: 10px;
+    width: auto;
+    height: 300px;
+}
+
+.margin{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.shadow-text {
+    font-family: 'Zilla Slab', serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+.historia{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(/aula_bootstrap/img/Estádio_Barradão_-_Esporte_Clube_Vitória_8.jpg);
+    height: 160px;
+}
+
+.padding-p{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.postagens{
+    width: 800px;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 7px;
+}
+
+.bg-footer{
+    color: black;
+    background-color: white;
+}

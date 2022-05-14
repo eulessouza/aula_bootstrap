@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esporte Clube Vitória</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+          <img src="img/1821231895_8ca21cb7a0036dbf578b4f200e9563ef.png" alt="" class="nav-logo" width="30" height="24">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#historia">História</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Calendário</a></li>
+              <li><a class="dropdown-item" href="#">Elenco</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Lojas</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Sou + Vitória</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Procurar</button>
+        </form>
+      </div>
+      </div>
+    </nav>
+
+    <section class="historia">
+      <div class="card bg-dark text-white">
+        <div class="card-img-overlay">
+          <h2 class="card-title text-center shadow-text">História</h2>
+          <p class="card-text padding-p shadow-text">O Esporte Clube Vitória (conhecido como Vitória e cujo acrônimo é ECV) é um clube multiesportivo brasileiro, sediado na cidade de Salvador, no estado da Bahia. Foi fundado em 13 de maio de 1899 com o nome de Club de Cricket Victoria, mudado para Sport Club Victoria, em 1902, e, finalmente, para o atual nome em 1946. Sendo o clube mais velho do nordeste e um dos mais antigos do Brasil. Suas cores são o vermelho e o preto, seu mascote é o Leão.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="anuncios">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="margin-obj" src="img/clube-leao-vantagens.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <img class="margin-obj" src="img/51771736_1c71c89451b1d2bd3f7a4a7a0c82415d.gif" alt="" >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="postagens container-sm d-flex">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/um-ponto.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="shadow-text">UM PONTO</h3>
+              <p class="shadow-text">Vitória empata sem gols com Aparecidense no encerramento da 5ª rodada</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="img/reapresentação.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="shadow-text">REAPRESENTAÇÃO</h3>
+              <p class="shadow-text">Após retornar de Goiânia, Vitória treina nesta quarta para duelo no dia seguinte</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="img/ANÁLISE DO JOGO.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="shadow-text">ANÁLISE DO JOGO</h3>
+              <p class="shadow-text">Fabiano Soares confessa: "Faltaram as tomadas de decisão no final"</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <footer class="container-fluid text-center bg-footer">
+      <p>Desenvolvido por Eules de Oliveira Souza.</p>
+    </footer>
+</body>
+
+  <script src="bootstrap/js/bootstrap.js"></script>
+</html>
